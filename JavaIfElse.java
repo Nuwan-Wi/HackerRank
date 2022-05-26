@@ -46,7 +46,7 @@ public class JavaIfElse {
             if (num>=6 && num <=20){
                 System.out.println("Weird");
             }
-            else{
+            if (num>20){
                 System.out.println("Not Weird");
             }
         }
