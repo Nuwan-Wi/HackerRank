@@ -30,6 +30,6 @@ if __name__ == '__main__':
     maxValur = max(listNum)
     try:
         while True:
-            arr.remove(maxValur)
+            listNum.remove(maxValur)
     except:
         print(max(listNum))
